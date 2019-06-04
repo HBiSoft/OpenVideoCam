@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:text=""
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/camNoAudio"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:text="Open Camera"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/openCam"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/colorPrimary"
+        android:text="Open Camera"
+        android:textColor="@android:color/white"
+        android:layout_alignParentBottom="true"/>
+
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/delete"
+        android:layout_marginTop="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/camNoAudio"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:text="Open Camera"
+                android:textColor="@android:color/white"
+                android:layout_alignParentBottom="true"/>
+
+            <Button
+                android:id="@+id/camNoAnimation"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:text="Camera (No Animation)"
+                android:visibility="gone"
+                android:layout_below="@+id/camNoAudio"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/camH264"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:text="Camera (Codec H264)"
+                android:layout_below="@+id/camNoAnimation"
+                android:visibility="gone"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/camH263"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:text="Camera (Codec H263)"
+                android:layout_below="@+id/camH264"
+                android:visibility="gone"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/camSetBitrate"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/colorPrimary"
+                android:text="Camera (Set Bitrate)"
+                android:layout_below="@+id/camH263"
+                android:visibility="gone"
+                android:textColor="@android:color/white" />
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>-->
+
+
+</RelativeLayout>

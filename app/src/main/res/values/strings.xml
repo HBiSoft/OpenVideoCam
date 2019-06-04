@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">LogCameraError</string>
+
+    <!--Keep-->
+    <string name="repeats_to_go">repeats to go</string> <!--  intentionally starts lower case -->
+    <string name="failed_to_reconnect_camera">Failed to reconnect to camera</string>
+    <string name="video_may_be_corrupted">Error, video file may be corrupted</string>
+    <string name="not_supported">not supported on your device</string> <!--  intentionally starts lower case -->
+    <string name="video_error_unknown">Unknown error, video halted</string>
+    <string name="video_error_server_died">Server died, video halted</string>
+    <string name="video_max_filesize">Video reached max file size</string>
+    <string name="exposure_compensation">Exposure compensation</string>
+    <string name="infinite">Infinite</string>
+    <string name="focus_distance">Focus distance</string>
+    <string name="failed_to_save_video">Failed to save video file</string>
+    <string name="failed_to_record_video">Failed to record video</string>
+    <string name="sorry">Sorry</string>
+    <string name="failed_to_start_camera_preview">Failed to start camera preview</string>
+    <string name="angle">Angle</string>
+    <string name="direction">Direction</string>
+    <string name="zoom">Zoom</string>
+    <string name="metres_abbreviation">m</string> <!-- symbol short for metres -->
+    <string name="iso">ISO</string>
+    <string name="no_burst">no burst</string> <!-- string for burst mode not being supported for a resolution -->
+    <string name="focus_bracketing_source_distance">Focus bracketing source distance</string>
+    <string name="focus_bracketing_target_distance">Focus bracketing target distance</string>
+    <string name="flash_off">Flash Off</string>
+    <string name="flash_auto">Flash Auto</string>
+    <string name="flash_on">Flash On</string>
+    <string name="flash_torch">Torch</string>
+    <string name="flash_red_eye">Red Eye</string>
+    <string name="flash_frontscreen_auto">Screen Flash Auto</string>
+    <string name="flash_frontscreen_on">Screen Flash On</string>
+    <string name="flash_frontscreen_torch">Screen Torch</string>
+    <string name="record_video">Record video</string>
+    <string name="camera_error">Serious camera error</string>
+    <string name="seconds_abbreviation">s</string> <!-- short for seconds -->
+    <string name="video_no_free_space">Not enough free space to record video</string>
+    <string name="video_power_critical">Video stopped\nBattery level critically low</string>
+    <string name="permission_rationale_title">Permission required</string>
+    <string name="permission_rationale_camera">Camera permission is required to enable the camera</string>
+    <string name="permission_rationale_storage">Storage read/write permission is required to save photos</string>
+    <string name="permission_rationale_record_audio">Microphone permission is required to record video with audio, as well as use the \"Audio control\" options</string>
+    <string name="permission_rationale_location">Location permission is required for geotagging</string>
+    <string name="start_video">Start recording video</string>
+    <string name="stop_video">Stop recording video</string>
+    <string name="take_video">Take Video</string>
+    <string name="switch_to_front_camera">Switch to front camera</string>
+    <string name="switch_to_back_camera">Switch to back camera</string>
+
+
+    <!-- There's no point translating the What's New text - it'll be updated constantly, and change each version -->
+    <string name="camviewswitchcamcontentdesc">flipCamDescription</string>
+    <string name="camviewstartbtncontentdesc">recordDescription</string>
+    <string name="camviewstopbtncontentdesc">stopDescription</string>
+
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <!--Keep-->
+    <dimen name="onscreen_button_size">60dp</dimen>
+</resources>

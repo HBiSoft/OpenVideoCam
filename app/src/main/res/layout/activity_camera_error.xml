@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OpenCamera.CameraErrorActivity"
+    android:background="#50000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#90000000">
+
+        <RelativeLayout
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corners"
+            android:layout_margin="40dp">
+
+            <RelativeLayout
+                android:id="@+id/error_title"
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:background="@drawable/error_activity_title_background">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textSize="18dp"
+                    android:text="Camera Error"
+                    android:textColor="@android:color/white"/>
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/textErrorDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/error_title">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textColor="@android:color/black"
+                    android:textSize="16sp"
+                    android:text="There was an error when recording your video. \n\nTo be able to fix this issue, we need you to send us the log via Email, by pressing the send log button below, or press back to go back to the camera and try again."/>
+
+
+
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="?android:attr/actionBarSize"
+                android:layout_below="@+id/textErrorDescription"
+                >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/error_activity_button_background"/>
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SEND LOG"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="16sp"
+                    android:textColor="@android:color/white"
+                    />
+
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
